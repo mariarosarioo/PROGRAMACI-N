@@ -1,0 +1,14 @@
+body { background-color: aliceblue;
+    background-image:url(https://img.freepik.com/vector-gratis/diseno-fondo-forma-cuerpo-humano_1319-56.jpg);
+     color: blue ; 
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+ h1 {font-size: 35px; } 
+ h1 p { margin: 30px;}
+ h1 ul { margin: 30px;}
+ div {font-size: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+ .ejemplo { margin: 20px;
+            padding: 20px;
+            border: 50px solid blueviolet;}
+ form {font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}

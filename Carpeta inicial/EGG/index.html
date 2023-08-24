@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<title>Mi primer pagina </title> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="ejemplo"> 
+ Este es un ejemplo de contenido
+ </div>
+ <form>
+   <ul>
+      <li>
+   <!-- Campo para nombre-->
+   <label for="nombre">Nombre:</label>
+   <input type="text" id="nombre" name="nombre">
+       </li>
+      <li>
+   <!-- Campo para correo electronico-->
+   <label for="email">Correo  electronico:</label>
+   <input type="email" id="email" name="email">
+      </li>
+  
+   <input id="boton" type="button" value="Aprétame">
+   <script>
+      const boton = document.querySelector('#boton');
+      boton.addEventListener('click', function(evento) {
+	    console.log('funciono');
+      }, false);
+
+   </script>
+   </ul>
+   
+
+
+ </form>
+    <h1>
+    PRIMER TITULO 
+     <P> 
+     primer parrafo
+        <ol>
+           <li>1er elemento </li>
+           <li> 2do elemento</li>
+           <li> 3er elemento</li>
+
+         </ol>
+         <ul>
+           <li> primer elemento </li>
+           <li> segundo elemento </li>
+           <li> tercer elemento</li>
+         </ul>
+    </P>
+    <img src="c:\Users\jujuy\Downloads\para progrmacion.avif" alt="imagen de ejemplo">
+    
+    </h1>
+    <h2> MI SEGUNDO TITULO
+     <p> Mi segundo parrafo </p>
+     </h2>
+    <h3>
+    MI TERCER TITULO
+    <P> Mi tercer parrafo </P>
+     </h3>
+ <h4>
+    MI CUARTO TITULO
+ </h4>
+ <h5>
+    MI QUINTO TITULO
+ </h5>
+ <h6>
+    MI SEXTO TITULO
+ </h6>
+    </body>
+</html>

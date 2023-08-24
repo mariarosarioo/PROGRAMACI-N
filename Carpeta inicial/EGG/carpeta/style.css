@@ -1,0 +1,16 @@
+header { background-color: violet;
+        font-size: 30px;
+         margin: 0px;
+        border: 50px;}
+nav { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+       margin: 0px;}
+       a{color: white ;}
+       a:hover {color: pink !important;
+        cursor: pointer; }
+        @media (max-width: 799px) {
+            .mi-elemento {
+                width: 50%;
+            }
+        }
+            
+        
